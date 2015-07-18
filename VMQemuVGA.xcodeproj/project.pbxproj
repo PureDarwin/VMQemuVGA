@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E59352911269A11F00346DAD /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E593529C1269A13600346DAD /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E59352951269A12600346DAD /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		32D94FCA0562CBF700B6AF17 /* VMQemuVGA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */; };
+		792AA6B70FFF858500B0B5B1 /* VMQemuVGAClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 792AA6B50FFF858500B0B5B1 /* VMQemuVGAClient.cpp */; };
+		79CD27F20FFD0E97002D58FE /* QemuVGADevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79CD27F00FFD0E97002D58FE /* QemuVGADevice.cpp */; };
+		79D6E26B1008D086005D1591 /* modes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D6E26A1008D086005D1591 /* modes.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E59352941269A12600346DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D94FC30562CBF700B6AF17;
+			remoteInfo = VMQemuVGA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A224C3EFF42367911CA2CB7 /* VMQemuVGA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMQemuVGA.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VMQemuVGA.cpp; sourceTree = "<group>"; };
+		32D94FCF0562CBF700B6AF17 /* Info-FB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-FB.plist"; sourceTree = "<group>"; };
+		32D94FD00562CBF700B6AF17 /* VMQemuVGA.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMQemuVGA.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		678C18C51564893C00BCDF35 /* vga_int-stripped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "vga_int-stripped.h"; sourceTree = "<group>"; };
+		792AA6B40FFF858500B0B5B1 /* VMQemuVGAClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMQemuVGAClient.h; sourceTree = "<group>"; };
+		792AA6B50FFF858500B0B5B1 /* VMQemuVGAClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VMQemuVGAClient.cpp; sourceTree = "<group>"; };
+		79CD27F00FFD0E97002D58FE /* QemuVGADevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QemuVGADevice.cpp; sourceTree = "<group>"; };
+		79CD27F10FFD0E97002D58FE /* QemuVGADevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QemuVGADevice.h; sourceTree = "<group>"; };
+		79D55C970FFFB1AA004151C8 /* common_fb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common_fb.h; sourceTree = "<group>"; };
+		79D6E26A1008D086005D1591 /* modes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = modes.cpp; sourceTree = "<group>"; };
+		E52B43CA10B5B37F002470B4 /* Generic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Generic.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* VMQemuVGA */ = {
+			isa = PBXGroup;
+			children = (
+				678C18C41564893C00BCDF35 /* qemu */,
+				E52B43CA10B5B37F002470B4 /* Generic.xcconfig */,
+				7991DE6D102B19D00042347F /* FB */,
+				79C556E1102B1C42006408E2 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = VMQemuVGA;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* VMQemuVGA.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */,
+				79CD27F00FFD0E97002D58FE /* QemuVGADevice.cpp */,
+				792AA6B50FFF858500B0B5B1 /* VMQemuVGAClient.cpp */,
+				79D6E26A1008D086005D1591 /* modes.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		678C18C41564893C00BCDF35 /* qemu */ = {
+			isa = PBXGroup;
+			children = (
+				678C18C51564893C00BCDF35 /* vga_int-stripped.h */,
+			);
+			path = qemu;
+			sourceTree = "<group>";
+		};
+		7991DE6D102B19D00042347F /* FB */ = {
+			isa = PBXGroup;
+			children = (
+				247142CAFF3F8F9811CA285C /* Source */,
+				79CD27F50FFD0EA4002D58FE /* Headers */,
+			);
+			path = FB;
+			sourceTree = "<group>";
+		};
+		79C556E1102B1C42006408E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FCF0562CBF700B6AF17 /* Info-FB.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		79CD27F50FFD0EA4002D58FE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1A224C3EFF42367911CA2CB7 /* VMQemuVGA.h */,
+				79CD27F10FFD0E97002D58FE /* QemuVGADevice.h */,
+				792AA6B40FFF858500B0B5B1 /* VMQemuVGAClient.h */,
+				79D55C970FFFB1AA004151C8 /* common_fb.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32D94FC30562CBF700B6AF17 /* VMQemuVGA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "VMQemuVGA" */;
+			buildPhases = (
+				32D94FC90562CBF700B6AF17 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMQemuVGA;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = VMQemuVGA;
+			productReference = 32D94FD00562CBF700B6AF17 /* VMQemuVGA.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "VMQemuVGA" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* VMQemuVGA */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* VMQemuVGA */,
+				E59352911269A11F00346DAD /* All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FCA0562CBF700B6AF17 /* VMQemuVGA.cpp in Sources */,
+				79CD27F20FFD0E97002D58FE /* QemuVGADevice.cpp in Sources */,
+				792AA6B70FFF858500B0B5B1 /* VMQemuVGAClient.cpp in Sources */,
+				79D6E26B1008D086005D1591 /* modes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E59352951269A12600346DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D94FC30562CBF700B6AF17 /* VMQemuVGA */;
+			targetProxy = E59352941269A12600346DAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91DB08733DB10010E9CD /* ReleaseLeo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"LOGGING_LEVEL=1",
+					VLOG_LOCAL,
+					VECTORIZE,
+				);
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Info-FB.plist";
+				MODULE_NAME = puredarwin.driver.VMQemuVGA;
+				PRODUCT_NAME = VMQemuVGA;
+				SKIP_INSTALL = NO;
+				STRIP_STYLE = "non-global";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = ReleaseLeo;
+		};
+		1DEB91DF08733DB10010E9CD /* ReleaseLeo */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52B43CA10B5B37F002470B4 /* Generic.xcconfig */;
+			buildSettings = {
+				ARCHS = i386;
+				COPYRIGHT_NOTICE = "Copyright 2009-2011 Zenith432 2012 rafirafi";
+				CURRENT_PROJECT_VERSION = 1.2.5d3;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.5d3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULE_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				SDKROOT = "";
+				STRIPFLAGS = "-no_uuid";
+			};
+			name = ReleaseLeo;
+		};
+		E59352921269A11F00346DAD /* ReleaseLeo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = ReleaseLeo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "VMQemuVGA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DB08733DB10010E9CD /* ReleaseLeo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = ReleaseLeo;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "VMQemuVGA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DF08733DB10010E9CD /* ReleaseLeo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = ReleaseLeo;
+		};
+		E593529C1269A13600346DAD /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59352921269A11F00346DAD /* ReleaseLeo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = ReleaseLeo;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = ReleaseLeo;
+		activeTarget = 32D94FC30562CBF700B6AF17 /* VMQemuVGA */;
+		codeSenseManager = 671ABB1E16120D9200FBF5AD /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					513,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					473,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 370282110;
+			PBXWorkspaceStateSaveDate = 370282110;
+		};
+		perUserProjectItems = {
+			671ABB3816120FA300FBF5AD /* PBXTextBookmark */ = 671ABB3816120FA300FBF5AD /* PBXTextBookmark */;
+			671ABB3C16120FA600FBF5AD /* PBXTextBookmark */ = 671ABB3C16120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB3D16120FA600FBF5AD /* PBXTextBookmark */ = 671ABB3D16120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB3E16120FA600FBF5AD /* PBXTextBookmark */ = 671ABB3E16120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB3F16120FA600FBF5AD /* PlistBookmark */ = 671ABB3F16120FA600FBF5AD /* PlistBookmark */;
+			671ABB4016120FA600FBF5AD /* PBXTextBookmark */ = 671ABB4016120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB4116120FA600FBF5AD /* PBXTextBookmark */ = 671ABB4116120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB4216120FA600FBF5AD /* PBXTextBookmark */ = 671ABB4216120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB4316120FA600FBF5AD /* PBXTextBookmark */ = 671ABB4316120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB4416120FA600FBF5AD /* PBXTextBookmark */ = 671ABB4416120FA600FBF5AD /* PBXTextBookmark */;
+			671ABB4516120FA600FBF5AD /* PlistBookmark */ = 671ABB4516120FA600FBF5AD /* PlistBookmark */;
+			671ABB4616120FA600FBF5AD /* PBXTextBookmark */ = 671ABB4616120FA600FBF5AD /* PBXTextBookmark */;
+		};
+		sourceControlManager = 671ABB1D16120D9200FBF5AD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* VMQemuVGA.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 1624}}";
+			sepNavSelRange = "{530, 0}";
+			sepNavVisRange = "{211, 605}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 11508}}";
+			sepNavSelRange = "{7834, 67}";
+			sepNavVisRange = "{7578, 381}";
+		};
+	};
+	32D94FC30562CBF700B6AF17 /* VMQemuVGA */ = {
+		activeExec = 0;
+	};
+	671ABB1D16120D9200FBF5AD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	671ABB1E16120D9200FBF5AD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	671ABB3816120FA300FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: cannot convert 'AbsoluteTime*' to 'uint64_t*' for argument '3' to 'void clock_interval_to_deadline(uint32_t, uint32_t, uint64_t*)'";
+		fRef = 1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */;
+		rLen = 1;
+		rLoc = 341;
+		rType = 1;
+	};
+	671ABB3C16120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* VMQemuVGA.h */;
+		name = "VMQemuVGA.h: 26";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 211;
+	};
+	671ABB3D16120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CD27F00FFD0E97002D58FE /* QemuVGADevice.cpp */;
+		name = "QemuVGADevice.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 99;
+	};
+	671ABB3E16120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 792AA6B50FFF858500B0B5B1 /* VMQemuVGAClient.cpp */;
+		name = "VMQemuVGAClient.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 864;
+	};
+	671ABB3F16120FA600FBF5AD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info-FB.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/kindred/Desktop/VMQemuVGA-1/Info-FB.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	671ABB4016120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */;
+		name = "VMQemuVGA.cpp: 342";
+		rLen = 0;
+		rLoc = 7887;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 7470;
+	};
+	671ABB4116120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3EFF42367911CA2CB7 /* VMQemuVGA.h */;
+		name = "VMQemuVGA.h: 26";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 211;
+	};
+	671ABB4216120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */;
+		name = "VMQemuVGA.cpp: 268";
+		rLen = 0;
+		rLoc = 6125;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 294;
+	};
+	671ABB4316120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 79CD27F00FFD0E97002D58FE /* QemuVGADevice.cpp */;
+		name = "QemuVGADevice.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 99;
+	};
+	671ABB4416120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 792AA6B50FFF858500B0B5B1 /* VMQemuVGAClient.cpp */;
+		name = "VMQemuVGAClient.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 864;
+	};
+	671ABB4516120FA600FBF5AD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32D94FCF0562CBF700B6AF17 /* Info-FB.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/kindred/Desktop/VMQemuVGA-1/Info-FB.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	671ABB4616120FA600FBF5AD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A224C3FFF42367911CA2CB7 /* VMQemuVGA.cpp */;
+		name = "VMQemuVGA.cpp: 342";
+		rLen = 67;
+		rLoc = 7834;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 7506;
+	};
+	792AA6B50FFF858500B0B5B1 /* VMQemuVGAClient.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {780, 1008}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{864, 880}";
+		};
+	};
+	79CD27F00FFD0E97002D58FE /* QemuVGADevice.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 1862}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{99, 523}";
+		};
+	};
+	E59352911269A11F00346DAD /* All */ = {
+		activeExec = 0;
+	};
+}
